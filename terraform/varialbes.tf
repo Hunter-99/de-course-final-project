@@ -1,5 +1,5 @@
 locals {
-  data_lake_bucket = "stack_overflow_ads"
+  data_lake_bucket = "steam_data"
 }
 
 variable "project" {
@@ -21,7 +21,7 @@ variable "storage_class" {
 variable "BQ_DATASET" {
   description = "BigQuery Dataset that raw data (from GCS) will be written to"
   type = string
-  default = "stack_overflow_ads"
+  default = "steam_data"
 }
 
 variable "credentials" {
