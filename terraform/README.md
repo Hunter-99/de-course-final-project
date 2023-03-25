@@ -2,8 +2,8 @@
 
 In this directory contains terraform configuration which creates infrastructure in `Google Cloud` such as:
 
-- Bucket `stack_overflow_ads`
-- Big Query dataset `stack_overflow_ads`
+- Bucket `steam_data_927433242395`
+- Big Query dataset `steam_data`
 
 > **Note**: In real project `variables.tf` file must be in `.gitignore`
 
@@ -61,7 +61,7 @@ In this directory contains terraform configuration which creates infrastructure 
      # google_bigquery_dataset.dataset will be created
      + resource "google_bigquery_dataset" "dataset" {
          + creation_time              = (known after apply)
-         + dataset_id                 = "stack_overflow_ads"
+         + dataset_id                 = "steam_data"
          + delete_contents_on_destroy = false
          + etag                       = (known after apply)
          + id                         = (known after apply)
@@ -78,7 +78,7 @@ In this directory contains terraform configuration which creates infrastructure 
          + force_destroy               = true
          + id                          = (known after apply)
          + location                    = "US-EAST1"
-         + name                        = "stack_overflow_ads_927433242395"
+         + name                        = "steam_data_927433242395"
          + project                     = (known after apply)
          + public_access_prevention    = (known after apply)
          + self_link                   = (known after apply)
@@ -114,14 +114,12 @@ In this directory contains terraform configuration which creates infrastructure 
    
    google_bigquery_dataset.dataset: Creating...
    google_storage_bucket.data-lake-bucket: Creating...
-   google_bigquery_dataset.dataset: Creation complete after 2s [id=projects/927433242395/datasets/stack_overflow_ads]
-   google_storage_bucket.data-lake-bucket: Creation complete after 2s [id=stack_overflow_ads_927433242395]
+   google_bigquery_dataset.dataset: Creation complete after 2s [id=projects/927433242395/datasets/steam_data]
+   google_storage_bucket.data-lake-bucket: Creation complete after 2s [id=steam_data_927433242395]
    
    Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
    ```
    
-after these actions, our project should create bucket `stack_overflow_ads` and `BigQuery` dataset `stack_overflow_ads`:
+after these actions, our project should create bucket `steam_data_927433242395` and `BigQuery` dataset `steam_data_927433242395`:
 
-![img.png](../docs/img/terraform/screenshot_1.png)
-
-![img_1.png](../docs/img/terraform/screenshot_2.png)
+![screenshot_1.png](..%2Fdocs%2Fimg%2Fterraform%2Fscreenshot_1.png)
