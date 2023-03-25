@@ -44,7 +44,7 @@ In fact, I just moved `.csv` files, unzipped archives and uploaded them to bucke
 
 As described above `fake-third-party-resource-bucket` bucket in GCP is our data source.
 
-`fake-third-party-resource-bucket` structure (read more in [about dataset](../docs/about_dataset.md)):
+`fake-third-party-resource-bucket` structure (read more in [about dataset](docs/about_dataset.md)):
 
 ```bash
     PlayerCountHistory/
