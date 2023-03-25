@@ -1,0 +1,16 @@
+{
+    "columns_to_rename": {
+        "appid": "app_id",
+        "releasedate": "release_date",
+        "freetoplay": "free_to_play"
+    },
+    "columns_fillna_values": {},
+    "columns_dtypes": {
+        "_filename": "str",
+        "app_id": "int32",
+        "type": "str",
+        "name": "str",
+        "release_date": "datetime64[ns]",
+        "free_to_play": "bool"
+    }
+}

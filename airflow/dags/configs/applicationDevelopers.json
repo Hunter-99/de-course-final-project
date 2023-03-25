@@ -1,0 +1,15 @@
+{
+    "columns_to_rename": {},
+    "columns_fillna_values": {},
+    "columns_dtypes": {
+        "app_id": "int32",
+        "_filename": "str",
+        "developer_1": "str",
+        "developer_2": "str",
+        "developer_3": "str",
+        "developer_4": "str",
+        "developer_5": "str",
+        "developer_6": "str",
+        "developer_7": "str"
+    }
+}

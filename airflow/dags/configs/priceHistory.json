@@ -1,0 +1,14 @@
+{
+    "columns_to_rename": {
+        "initialprice": "initial_price",
+        "finalprice": "final_price"
+    },
+    "columns_fillna_values": {},
+    "columns_dtypes": {
+        "_filename": "str",
+        "date": "datetime64[ns]",
+        "initial_price": "float32",
+        "final_price": "float32",
+        "discount": "float32"
+    }
+}

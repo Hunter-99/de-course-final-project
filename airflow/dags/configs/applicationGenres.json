@@ -1,0 +1,16 @@
+{
+    "columns_to_rename": {},
+    "columns_fillna_values": {},
+    "columns_dtypes": {
+        "app_id": "int32",
+        "_filename": "str",
+        "genre_1": "str",
+        "genre_2": "str",
+        "genre_3": "str",
+        "genre_4": "str",
+        "genre_5": "str",
+        "genre_6": "str",
+        "genre_7": "str",
+        "genre_8": "str"
+    }
+}

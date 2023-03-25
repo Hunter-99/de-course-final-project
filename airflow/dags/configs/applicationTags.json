@@ -1,0 +1,28 @@
+{
+    "columns_to_rename": {},
+    "columns_fillna_values": {},
+    "columns_dtypes": {
+        "app_id": "int32",
+        "_filename": "str",
+        "tag_1": "str",
+        "tag_2": "str",
+        "tag_3": "str",
+        "tag_4": "str",
+        "tag_5": "str",
+        "tag_6": "str",
+        "tag_7": "str",
+        "tag_8": "str",
+        "tag_9": "str",
+        "tag_10": "str",
+        "tag_11": "str",
+        "tag_12": "str",
+        "tag_13": "str",
+        "tag_14": "str",
+        "tag_15": "str",
+        "tag_16": "str",
+        "tag_17": "str",
+        "tag_18": "str",
+        "tag_19": "str",
+        "tag_20": "str"
+    }
+}

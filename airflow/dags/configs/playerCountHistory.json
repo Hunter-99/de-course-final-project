@@ -1,0 +1,13 @@
+{
+    "columns_to_rename": {
+        "playercount": "player_count"
+    },
+    "columns_fillna_values":{
+        "player_count": 0
+    },
+    "columns_dtypes": {
+        "_filename": "str",
+        "time": "datetime64[ns]",
+        "player_count": "int64"
+    }
+}
