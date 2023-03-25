@@ -120,6 +120,6 @@ In this directory contains terraform configuration which creates infrastructure 
    Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
    ```
    
-after these actions, our project should create bucket `steam_data_927433242395` and `BigQuery` dataset `steam_data_927433242395`:
+after these actions, our project should create bucket `steam_data_927433242395` and `BigQuery` dataset `steam_data`:
 
 ![screenshot_1.png](..%2Fdocs%2Fimg%2Fterraform%2Fscreenshot_1.png)
