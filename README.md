@@ -68,4 +68,5 @@ As described above `fake-third-party-resource-bucket` bucket in GCP is our data 
 - [About Steam Games Dataset](docs/about_dataset.md)
 - [Terraform project documentation](terraform/README.md)
 - [AirFlow project documentation](airflow/README.md)
+- [SQL queries documentation](sql/README.md)
 - [DBT project documentation]()
