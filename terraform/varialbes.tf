@@ -24,6 +24,12 @@ variable "BQ_DATASET" {
   default = "steam_data"
 }
 
+variable "BQ_DATASET_EXTERNAL" {
+  description = "BigQuery Dataset that raw data (from GCS) will be written to"
+  type = string
+  default = "steam_data_external"
+}
+
 variable "credentials" {
   description = "Absolute path to service account's key"
   type = string
