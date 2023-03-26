@@ -53,3 +53,9 @@ resource "google_bigquery_dataset" "external_dataset" {
   project    = var.project
   location   = var.region
 }
+
+resource "google_bigquery_dataset" "analytics_dataset" {
+  dataset_id = var.BQ_DATASET_ANALYTICS
+  project    = var.project
+  location   = var.region
+}
