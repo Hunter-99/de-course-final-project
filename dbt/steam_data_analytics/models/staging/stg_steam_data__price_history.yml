@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_steam_data__price_history
+    description: >
+      Contains information about application prices.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - not_null
+      - name: date
+        description: ""
+      - name: initial_price
+        description: ""
+      - name: discount
+        description: ""
+      - name: final_price
+        description: ""

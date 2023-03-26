@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: stg_steam_data__application_supported_languages
+    description: >
+      Contains languages which supports application
+      One application can support several languages.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - unique
+          - not_null
+      - name: language_1
+        description: Language (1) witch supports application.
+      - name: language_2
+        description: Language (2) witch supports application.
+      - name: language_3
+        description: Language (3) witch supports application.
+      - name: language_4
+        description: Language (4) witch supports application.
+      - name: language_5
+        description: Language (5) witch supports application.
+      - name: language_6
+        description: Language (6) witch supports application.
+      - name: language_7
+        description: Language (7) witch supports application.
+      - name: language_8
+        description: Language (8) witch supports application.
+      - name: language_9
+        description: Language (9) witch supports application.
+      - name: language_10
+        description: Language (10) witch supports application.
+      - name: language_11
+        description: Language (11) witch supports application.
+      - name: language_12
+        description: Language (12) witch supports application.
+      - name: language_13
+        description: Language (13) witch supports application.
+      - name: language_14
+        description: Language (14) witch supports application.
+      - name: language_15
+        description: Language (15) witch supports application.
+      - name: language_16
+        description: Language (16) witch supports application.
+      - name: language_17
+        description: Language (17) witch supports application.
+      - name: language_18
+        description: Language (18) witch supports application.
+      - name: language_19
+        description: Language (19) witch supports application.
+      - name: language_20
+        description: Language (20) witch supports application.
+      - name: language_21
+        description: Language (21) witch supports application.
+      - name: language_22
+        description: Language (22) witch supports application.
+      - name: language_23
+        description: Language (23) witch supports application.
+      - name: language_24
+        description: Language (24) witch supports application.
+      - name: language_25
+        description: Language (25) witch supports application.
+      - name: language_26
+        description: Language (26) witch supports application.
+      - name: language_27
+        description: Language (27) witch supports application.
+      - name: language_28
+        description: Language (28) witch supports application.

@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: staging
+    database: de-course-final-project
+    schema: steam_data
+
+    tables:
+      - name: application_developers
+        description: ""
+      - name: application_genres
+        description: ""
+      - name: application_information
+        description: ""
+      - name: application_publishers
+        description: ""
+      - name: application_supported_languages
+        description: ""
+      - name: application_tags
+        description: ""
+      - name: player_count_history
+        description: ""
+      - name: price_history
+        description: ""

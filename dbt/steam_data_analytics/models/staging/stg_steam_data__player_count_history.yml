@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_steam_data__player_count_history
+    description: >
+      Contains information about player count for applications.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - not_null
+      - name: time
+        description: ""
+      - name: player_count
+        description: ""

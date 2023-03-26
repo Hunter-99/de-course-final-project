@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_steam_data__application_publishers
+    description: >
+      Contains companies (studios) names which published applications. 
+      One application can published by several companies.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - unique
+          - not_null
+      - name: publisher_1
+        description: Company (studio) name (1) witch published application.
+      - name: publisher_2
+        description: Company (studio) name (2) witch published application.
+      - name: publisher_3
+        description: Company (studio) name (3) witch published application.
+      - name: publisher_4
+        description: Company (studio) name (4) witch published application.

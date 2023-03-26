@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_steam_data__application_information
+    description: Contains applications information.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - unique
+          - not_null
+      - name: type
+        description: Application type (`game`, `mod`, `dlc` and ect.).
+      - name: name
+        description: Application name.
+      - name: release_date
+        description: Application release date.
+      - name: free_to_play
+        description: Boolean field. Indicates is current application free or not.

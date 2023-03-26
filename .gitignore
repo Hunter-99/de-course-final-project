@@ -54,6 +54,14 @@ terraform.rc
 # Airflow
 airflow/logs/
 
+#------------------------------------------------------#
+
+# DBT
+
+target/
+dbt_packages/
+logs/
+
 # Credentials
 credentials/*.json
 

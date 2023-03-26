@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_steam_data__application_genres
+    description: Contains applications genres. One application can belong to several genres.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - unique
+          - not_null
+      - name: genre_1
+        description: Genre name (1).
+      - name: genre_2
+        description: Genre name (2).
+      - name: genre_3
+        description: Genre name (3).
+      - name: genre_4
+        description: Genre name (4).
+      - name: genre_5
+        description: Genre name (5).
+      - name: genre_6
+        description: Genre name (6).
+      - name: genre_7
+        description: Genre name (7).
+      - name: genre_8
+        description: Genre name (8).

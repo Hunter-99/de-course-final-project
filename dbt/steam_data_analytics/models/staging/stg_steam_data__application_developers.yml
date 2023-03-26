@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_steam_data__application_developers
+    description: >
+      Contains companies (studios) names which developed applications. 
+      One application can developed by several companies.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - unique
+          - not_null
+      - name: developer_1
+        description: Company (studio) name (1) witch developed application.
+      - name: developer_2
+        description: Company (studio) name (2) witch developed application.
+      - name: developer_3
+        description: Company (studio) name (3) witch developed application.
+      - name: developer_4
+        description: Company (studio) name (4) witch developed application.
+      - name: developer_5
+        description: Company (studio) name (5) witch developed application.
+      - name: developer_6
+        description: Company (studio) name (6) witch developed application.
+      - name: developer_7
+        description: Company (studio) name (7) witch developed application.

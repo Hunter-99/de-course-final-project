@@ -69,4 +69,4 @@ As described above `fake-third-party-resource-bucket` bucket in GCP is our data 
 - [Terraform project documentation](terraform/README.md)
 - [AirFlow project documentation](airflow/README.md)
 - [SQL queries documentation](sql/README.md)
-- [DBT project documentation]()
+- [DBT project documentation](dbt/README.md)

@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: stg_steam_data__application_tags
+    description: >
+      Contains applications tags.
+      One application can support several tags.
+    columns:
+      - name: app_id
+        description: Application id.
+        tests:
+          - unique
+          - not_null
+      - name: tag_1
+        description: Tag (1) witch supports application.
+      - name: tag_2
+        description: Tag (2) witch supports application.
+      - name: tag_3
+        description: Tag (3) witch supports application.
+      - name: tag_4
+        description: Tag (4) witch supports application.
+      - name: tag_5
+        description: Tag (5) witch supports application.
+      - name: tag_6
+        description: Tag (6) witch supports application.
+      - name: tag_7
+        description: Tag (7) witch supports application.
+      - name: tag_8
+        description: Tag (8) witch supports application.
+      - name: tag_9
+        description: Tag (9) witch supports application.
+      - name: tag_10
+        description: Tag (10) witch supports application.
+      - name: tag_11
+        description: Tag (11) witch supports application.
+      - name: tag_12
+        description: Tag (12) witch supports application.
+      - name: tag_13
+        description: Tag (13) witch supports application.
+      - name: tag_14
+        description: Tag (14) witch supports application.
+      - name: tag_15
+        description: Tag (15) witch supports application.
+      - name: tag_16
+        description: Tag (16) witch supports application.
+      - name: tag_17
+        description: Tag (17) witch supports application.
+      - name: tag_18
+        description: Tag (18) witch supports application.
+      - name: tag_19
+        description: Tag (19) witch supports application.
+      - name: tag_20
+        description: Tag (20) witch supports application.
