@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: stg_steam_data__price_history_aggregated
+    description: >
+      Contains aggregated information about application prices.
