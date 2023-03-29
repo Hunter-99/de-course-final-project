@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_steam_data__player_count_history__aggregated
+    description: >
+      Contains information about player count for applications.
+    columns:
+      - name: application_name
+        description: ""
+      - name: date
+        description: ""
+      - name: avg_player_count
+        description: ""
