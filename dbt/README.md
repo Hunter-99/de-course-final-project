@@ -1,5 +1,9 @@
 # DBT project
 
+## Models linage graph
+
+![dbt-dag.png](..%2Fdocs%2Fimg%2Fdbt%2Fdbt-dag.png)
+
 ## Local setup & run
 
 1. Install dbt with command:
