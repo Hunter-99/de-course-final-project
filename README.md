@@ -82,6 +82,7 @@ In fact, I just moved `.csv` files, unzipped archives and uploaded them to bucke
 - Airflow
 - DBT
 - Docker
+- GitHub actions (flake8 checks)
 
 ## Data pipeline diagram
 
