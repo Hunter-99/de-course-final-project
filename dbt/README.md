@@ -6,6 +6,7 @@
 
 ## Local setup & run
 
+> :warning: Before running models you need to run all queries from [sql directory](../sql/README.md) 
 1. Install dbt with command:
     ```bash
     pip install dbt-bigquery
