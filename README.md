@@ -64,7 +64,7 @@ Using this data we can:
 Source data for `Steam Games Dataset` located in https://data.mendeley.com/datasets/ycy3sy3vj2/1 . 
 Part of files are in `.csv`, part files in `.zip` archive. And I had two ways to create data pipeline:
 
-- Download all files and load them to `GCP` bucket from local storage
+- Download all files and load them to `GCP` bucket from local storage with Airflow
 - Imitate `fake` bucket and load all files in it. After that this bucket will be as `third-party` source for data.
 
 I choose the second way and created manually bucket `fake-third-party-resource-bucket`:
